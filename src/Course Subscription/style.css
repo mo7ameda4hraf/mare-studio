@@ -1,0 +1,13 @@
+@media (max-width:780px) {
+    .course-subscription {
+        .part-white{
+            display: none;
+        }
+        .title{
+            h2{
+                font-size: 29.846px;
+            }
+        }
+    }
+    
+}

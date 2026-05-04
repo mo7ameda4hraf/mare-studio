@@ -1,3 +1,6 @@
+import "./style.css"
+
+
 export default function CourseSubscription() {
   const plans = [
     {
@@ -13,8 +16,8 @@ export default function CourseSubscription() {
   ];
 
   return (
-    <div className="flex">
-        <div className="bg-white w-[30%] h-auto"></div>
+    <div className="flex course-subscription">
+        <div className="part-white bg-white w-[30%] h-auto"></div>
         <div className="w-full bg-linear-to-r from-blue-600 to-blue-500 p-6 text-white">
 
         {/* Title */}
@@ -33,7 +36,7 @@ export default function CourseSubscription() {
                 className="bg-white hover:scale-101 transition-transform duration-300  text-black rounded-[43.402px] p-4 shadow-md"
             >
                 <div className="bg-[#D9D9D9] mb-3 py-5
-                w-[300px] rounded-[31.632px] flex justify-center items-center flex-col">
+                w-75 rounded-[31.632px] flex justify-center items-center flex-col">
                     {/* Badge */}
                     <div className=" text-center text-[17.655px] mb-5 font-bold pb-2 bg-white w-[84.597px] rounded-full">
                     {plan.title}
