@@ -1,8 +1,10 @@
 // import React from 'react'
 
 import { useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function VideoSection() {
+  const { t } = useTranslation();
   const videoRef = useRef(null);
 
   const videos = [
@@ -68,7 +70,7 @@ export default function VideoSection() {
                 className="flex cursor-pointer items-center gap-2 text-[#41413C] hover:text-black transition"
                 >
                 <img src="/images/Polygon 3.svg" alt="" />
-                <span className="text-[32.684px] font-bold">تشغيل التالي</span>
+                <span className="text-[32.684px] font-bold">{t('courseActive.videoBox.watch')}</span>
                 </button>
                 {/* Divider */}
                 <div className="w-px h-[81.711px] bg-gray-400"></div>
@@ -78,7 +80,7 @@ export default function VideoSection() {
                 className="flex cursor-pointer items-center gap-2 text-[#41413C] hover:text-black transition"
                 >
                 <img src="/images/2 5.svg" alt="" />
-                <span className="text-[32.684px] font-bold">مشاركة</span>
+                <span className="text-[32.684px] font-bold">{t('courseActive.videoBox.share')}</span>
                 </button>
 
 

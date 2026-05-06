@@ -9,9 +9,7 @@
   padding: 40px 20px;
   .tabs{
     label{
-      width: 242px;
       height: 58px;
-      font-size: 25px;
       font-weight: 700;
       background: #F9F4F2;
       cursor: pointer;

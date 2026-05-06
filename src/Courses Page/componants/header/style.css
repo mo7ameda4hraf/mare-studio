@@ -78,3 +78,27 @@
         }
     }
 }
+
+@media (min-width:780px) and (max-width:1120px) {
+        .section-header{
+        .photo-mark{
+            display: none;
+        }
+        .container{
+            width: 92% !important;
+            .photo{
+                margin-top: 0 !important;
+            }
+            .text{
+                h1{
+                font-size: 40px;
+                margin-bottom: 22px !important;
+                }
+                p{
+                font-size: 23px;
+                margin-bottom: 62px !important;
+                }
+            }
+        }
+    }
+}

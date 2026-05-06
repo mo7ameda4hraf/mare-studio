@@ -1,14 +1,18 @@
 // import React from 'react'
 import "./style.css"
+import { useTranslation } from "react-i18next";
+
 
 export default function SectionHeader() {
+      const { t } = useTranslation();
+
   return (
     <div className="section-header relative">
         <section className="container flex justify-between items-center">
             <div className="text">
-                <h1 className="mb-7">ابني نفسك من انهارده وشوف فرق بكرة</h1>
-                <p>من خلال كورسات في البرمجة، اللغات، التصميم، والذكاء الاصطناعي، بأسلوب سهل وتطبيقي يساعدك تطور نفسك بثقة.</p>
-                <button>اعرف المزيد</button>
+                <h1 className="mb-7">{t("coursesPage.header.titleHeader")}</h1>
+                <p>{t("coursesPage.header.description")}</p>
+                <button>{t("coursesPage.header.btnMore")}</button>
             </div>
             <img className=" photo w-140 mt-10" src="/images/Personalized-Care-Approach-2 1.png" alt="" />
         </section>

@@ -1,13 +1,51 @@
-@media (max-width:780px) {
+@media (max-width:1120px) {
     .course-subscription {
-        .part-white{
+        .part-summary-empty{
             display: none;
         }
         .title{
             h2{
-                font-size: 29.846px;
+                font-size:  21.846px;
             }
+        }
+        
+    }
+    .course-summary{
+        flex-direction: column;
+    }
+    .part-summary-full{
+        width: 100% !important;
+    }
+    .check-summary{
+        background-color: white;
+        position: relative;
+        align-items: center;
+    }
+
+    .payment-course{
+        .container-img{
+            flex-direction: column;
+            h3{
+                font-size: 31.681px;
+            }
+        }
+        .add-code{
+            flex-direction: column;
         }
     }
     
+}
+
+.payment-course{
+    .add-code{
+        button{
+            border: 0.723px solid #FFF;
+            width: 268px;
+            height: 50.77px;
+        }
+        input{
+            border: 0.723px solid #FFF;
+            height: 50.77px;
+        }
+    }
 }
