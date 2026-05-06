@@ -32,16 +32,25 @@
 }
 
 @media (max-width:780px) {
+    .content{
+        padding: 0 !important;
+    }
     .course{
+        padding: 43px 9px !important;
         .title-course{
-            font-size: 43px;
+            font-size: 37px;
         }
         .description-course{
             font-size: 20px;
+            width: auto !important;
         }
         .card{
             .title-card{
                 font-size: 28px;
+            }
+            .learn-more-btn{
+                width: 120px !important;
+                font-size: 16px;
             }
         }
     }

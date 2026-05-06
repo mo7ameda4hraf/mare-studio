@@ -55,7 +55,7 @@ export default function MainCoursesPage() {
         </div>
       </div>
 
-      <div style={{ padding: "20px" }}>
+      <div className="content" style={{ padding: "20px" }}>
         <div ref={designRef}>
           <CourseCard color="#FF921F" title={t("coursesPage.courses.optionCourses.option1Course")} backGroundCard="#FFCE00"/>
         </div>
