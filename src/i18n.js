@@ -189,7 +189,7 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
       },
     },
   },
-  // lng: "ar", // اللغة الافتراضية
+  lng: "ar", // اللغة الافتراضية
   fallbackLng: "en",
   interpolation: {
     escapeValue: false,
