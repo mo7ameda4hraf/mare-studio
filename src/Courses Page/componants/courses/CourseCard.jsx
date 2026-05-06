@@ -62,7 +62,7 @@ const CourseCard = ({ color, title,backGroundCard }) => {
             {[1, 2, 3, 4, 5].map((item) => (
               <SwiperSlide key={item}>
                 <div className="card p-5 rounded-lg" style={{ backgroundColor: backGroundCard }}>
-                  <img src="public/images/Knowledge-base-part-3_what-is-seo.jpg" alt="img" />
+                  <img src="public/images/seo.png" alt="img" />
                   <h3 className="title-card text-[35px] font-normal" >{t("coursesPage.courses.courseCard.TitleCard")} {item}</h3>
                   <p className="description-card text-[20px] font-normal my-2.5">{t("coursesPage.courses.courseCard.descriptionCard")} {item}</p>
                   <button className="learn-more-btn">{t("coursesPage.courses.courseCard.enroll")}</button>
