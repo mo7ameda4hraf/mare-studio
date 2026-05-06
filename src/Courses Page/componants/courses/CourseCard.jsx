@@ -65,7 +65,7 @@ const CourseCard = ({ color, title,backGroundCard }) => {
                   <img src="public/images/seo.png" alt="img" />
                   <h3 className="title-card text-[35px] font-normal" >{t("coursesPage.courses.courseCard.TitleCard")} {item}</h3>
                   <p className="description-card text-[20px] font-normal my-2.5">{t("coursesPage.courses.courseCard.descriptionCard")} {item}</p>
-                  <button className="learn-more-btn">{t("coursesPage.courses.courseCard.enroll")}</button>
+                  <a href="/course"><button className="learn-more-btn">{t("coursesPage.courses.courseCard.enroll")}</button></a>
                 </div>
               </SwiperSlide>
             ))}

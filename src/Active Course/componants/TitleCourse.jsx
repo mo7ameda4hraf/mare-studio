@@ -13,9 +13,11 @@ export default function TitleCourse() {
                 <img src="/images/image 198.svg" alt="" />
                 <p className="text-[36.819px] font-normal">{t('courseActive.titleCourse.pragraph2')}</p>
             </div>
-            <button className="btn-subscribe mx-auto">
-                {t('courseActive.titleCourse.subscription')} 
-            </button>
+            <a href="/courseSubscription">
+                <button className="btn-subscribe mx-auto">
+                    {t('courseActive.titleCourse.subscription')} 
+                </button>
+            </a>
         </div>
     </div>
   )
