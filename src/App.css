@@ -44,8 +44,9 @@
       font-size: 36px;
     }
     .tabs{
+      flex-direction: column;
       label{
-        width: 166px !important;
+        width: 100% !important;
         height: 50px !important;
         font-size: 21px !important;
       }
