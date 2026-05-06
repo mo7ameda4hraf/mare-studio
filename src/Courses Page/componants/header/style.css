@@ -61,7 +61,7 @@
         }
         .container{
             width: 92% !important;
-            flex-direction: column-reverse;
+            flex-direction: column;
             .photo{
                 margin-top: 0 !important;
             }
